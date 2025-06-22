@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\GymTec.Api.csproj": {}
+    "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\GymTec.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\GymTec.Api.csproj": {
+    "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\GymTec.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\GymTec.Api.csproj",
+        "projectUniqueName": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\GymTec.Api.csproj",
         "projectName": "GymTec.Api",
-        "projectPath": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\GymTec.Api.csproj",
+        "projectPath": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\GymTec.Api.csproj",
         "packagesPath": "C:\\Users\\aliss\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\obj\\",
+        "outputPath": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -149,6 +149,29 @@ namespace GymTec.Api.Controllers
         }
 
         /// <summary>
+        /// POST /api/Users/login
+        /// Autentica un usuario.
+        /// </summary>
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginDto login)
+        {
+            var passwordMd5 = ComputeMd5(login.Password);
+
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.Correo == login.Correo && u.PasswordMd5 == passwordMd5);
+
+            if (user == null)
+                return Unauthorized("Correo o contraseña inválidos");
+
+            return Ok(new
+            {
+                token = "token-ficticio-por-ahora",
+                user.NombreCompleto,
+                user.Role
+            });
+        }
+
+        /// <summary>
         /// Calcula MD5 en minúsculas a partir de texto claro.
         /// </summary>
         private static string ComputeMd5(string input)
@@ -175,6 +198,15 @@ namespace GymTec.Api.Controllers
         public string Correo { get; set; } = null!;
         public string Password { get; set; } = null!; // texto claro
         public UserRole Role { get; set; }
+    }
+
+    /// <summary>
+    /// DTO para autenticación de usuario.
+    /// </summary>
+    public class LoginDto
+    {
+        public string Correo { get; set; } = null!;
+        public string Password { get; set; } = null!;
     }
 
     /// <summary>

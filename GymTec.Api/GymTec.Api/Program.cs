@@ -75,6 +75,16 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("PermitirFrontend", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000")
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
 
 // 6. Aplicar migraciones automáticamente en desarrollo
@@ -94,6 +104,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseCors("PermitirFrontend");
 
 app.MapControllers();
 

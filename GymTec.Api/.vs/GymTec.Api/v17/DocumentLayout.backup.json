@@ -1,73 +1,81 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\",
+  "WorkspaceRootPath": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\models\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\models\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\models\\spatreatment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\models\\spatreatment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\migrations\\20250611194612_removeshadowuseridfromreservations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\migrations\\20250611194612_removeshadowuseridfromreservations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\controllers\\planillacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\controllers\\planillacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\migrations\\20250610223948_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\migrations\\20250610223948_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\data\\gymteccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\data\\gymteccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\models\\spareservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\migrations\\20250610223948_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\migrations\\20250610223948_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\models\\spareservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\models\\spareservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\models\\clasereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\models\\clasereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\models\\clasereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\models\\tipoplanilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\models\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\models\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\models\\spatreatment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\models\\spatreatment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\migrations\\20250611194612_removeshadowuseridfromreservations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\migrations\\20250611194612_removeshadowuseridfromreservations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\controllers\\planillacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\controllers\\planillacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\data\\gymteccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\data\\gymteccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\models\\tipoplanilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\models\\tipoplanilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\models\\horastrabajada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\models\\horastrabajada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\models\\horastrabajada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\models\\clasesimpartida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\models\\clasesimpartida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\models\\clasesimpartida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\migrations\\20250611190656_addsucursalusersnavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\migrations\\20250611190656_addsucursalusersnavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\migrations\\20250611190656_addsucursalusersnavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\escritorio\\gymtec\\gymtec\\gymtec.api\\gymtec.api\\migrations\\20250611190547_addplanillafields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|c:\\users\\aliss\\onedrive\\documentos\\github\\gymtec\\gymtec.api\\gymtec.api\\migrations\\20250611190547_addplanillafields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F5AF6B-9D04-4F24-8F21-73858F2C6188}|GymTec.Api\\GymTec.Api.csproj|solutionrelative:gymtec.api\\migrations\\20250611190547_addplanillafields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -82,13 +90,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Program.cs",
               "RelativeDocumentMoniker": "GymTec.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Program.cs",
               "RelativeToolTip": "GymTec.Api\\Program.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAArwFMAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAmwHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T21:10:41.714Z",
               "IsPinned": true,
@@ -101,88 +109,107 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "GymTec.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\appsettings.json",
-              "RelativeToolTip": "GymTec.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-17T22:35:43.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20250610223948_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Migrations\\20250610223948_InitialCreate.cs",
-              "RelativeDocumentMoniker": "GymTec.Api\\Migrations\\20250610223948_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Migrations\\20250610223948_InitialCreate.cs",
-              "RelativeToolTip": "GymTec.Api\\Migrations\\20250610223948_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "GymTec.Api\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Controllers\\UsersController.cs*",
+              "RelativeToolTip": "GymTec.Api\\Controllers\\UsersController.cs*",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAcwLkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T01:29:56.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlanillaController.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Controllers\\PlanillaController.cs",
-              "RelativeDocumentMoniker": "GymTec.Api\\Controllers\\PlanillaController.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Controllers\\PlanillaController.cs",
-              "RelativeToolTip": "GymTec.Api\\Controllers\\PlanillaController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T20:11:52.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250611194612_RemoveShadowUserIdFromReservations.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Migrations\\20250611194612_RemoveShadowUserIdFromReservations.cs",
-              "RelativeDocumentMoniker": "GymTec.Api\\Migrations\\20250611194612_RemoveShadowUserIdFromReservations.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Migrations\\20250611194612_RemoveShadowUserIdFromReservations.cs",
-              "RelativeToolTip": "GymTec.Api\\Migrations\\20250611194612_RemoveShadowUserIdFromReservations.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T19:46:13.5Z",
+              "WhenOpened": "2025-06-22T20:23:44.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "GymTec.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "GymTec.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T19:52:27.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "GymTec.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\appsettings.json",
+              "RelativeToolTip": "GymTec.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-17T22:35:43.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250610223948_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Migrations\\20250610223948_InitialCreate.cs",
+              "RelativeDocumentMoniker": "GymTec.Api\\Migrations\\20250610223948_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Migrations\\20250610223948_InitialCreate.cs",
+              "RelativeToolTip": "GymTec.Api\\Migrations\\20250610223948_InitialCreate.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T01:29:56.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlanillaController.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Controllers\\PlanillaController.cs",
+              "RelativeDocumentMoniker": "GymTec.Api\\Controllers\\PlanillaController.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Controllers\\PlanillaController.cs",
+              "RelativeToolTip": "GymTec.Api\\Controllers\\PlanillaController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T20:11:52.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250611194612_RemoveShadowUserIdFromReservations.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Migrations\\20250611194612_RemoveShadowUserIdFromReservations.cs",
+              "RelativeDocumentMoniker": "GymTec.Api\\Migrations\\20250611194612_RemoveShadowUserIdFromReservations.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Migrations\\20250611194612_RemoveShadowUserIdFromReservations.cs",
+              "RelativeToolTip": "GymTec.Api\\Migrations\\20250611194612_RemoveShadowUserIdFromReservations.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:46:13.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SpaTreatment.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\SpaTreatment.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\SpaTreatment.cs",
               "RelativeDocumentMoniker": "GymTec.Api\\Models\\SpaTreatment.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\SpaTreatment.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\SpaTreatment.cs",
               "RelativeToolTip": "GymTec.Api\\Models\\SpaTreatment.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T19:26:47.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T19:26:47.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Clase.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\Clase.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\Clase.cs",
               "RelativeDocumentMoniker": "GymTec.Api\\Models\\Clase.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\Clase.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\Clase.cs",
               "RelativeToolTip": "GymTec.Api\\Models\\Clase.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T19:26:18.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T19:26:18.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "ClaseReservation.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\ClaseReservation.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\ClaseReservation.cs",
               "RelativeDocumentMoniker": "GymTec.Api\\Models\\ClaseReservation.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\ClaseReservation.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\ClaseReservation.cs",
               "RelativeToolTip": "GymTec.Api\\Models\\ClaseReservation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -190,23 +217,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "SpaReservation.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\SpaReservation.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\SpaReservation.cs",
               "RelativeDocumentMoniker": "GymTec.Api\\Models\\SpaReservation.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\SpaReservation.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\SpaReservation.cs",
               "RelativeToolTip": "GymTec.Api\\Models\\SpaReservation.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T19:12:06.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "20250611190656_AddSucursalUsersNavigation.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Migrations\\20250611190656_AddSucursalUsersNavigation.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Migrations\\20250611190656_AddSucursalUsersNavigation.cs",
               "RelativeDocumentMoniker": "GymTec.Api\\Migrations\\20250611190656_AddSucursalUsersNavigation.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Migrations\\20250611190656_AddSucursalUsersNavigation.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Migrations\\20250611190656_AddSucursalUsersNavigation.cs",
               "RelativeToolTip": "GymTec.Api\\Migrations\\20250611190656_AddSucursalUsersNavigation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -214,11 +241,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "20250611190547_AddPlanillaFields.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Migrations\\20250611190547_AddPlanillaFields.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Migrations\\20250611190547_AddPlanillaFields.cs",
               "RelativeDocumentMoniker": "GymTec.Api\\Migrations\\20250611190547_AddPlanillaFields.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Migrations\\20250611190547_AddPlanillaFields.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Migrations\\20250611190547_AddPlanillaFields.cs",
               "RelativeToolTip": "GymTec.Api\\Migrations\\20250611190547_AddPlanillaFields.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -226,11 +253,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Sucursal.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\Sucursal.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\Sucursal.cs",
               "RelativeDocumentMoniker": "GymTec.Api\\Models\\Sucursal.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\Sucursal.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\Sucursal.cs",
               "RelativeToolTip": "GymTec.Api\\Models\\Sucursal.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAA3wBMAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -238,11 +265,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ClasesImpartida.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\ClasesImpartida.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\ClasesImpartida.cs",
               "RelativeDocumentMoniker": "GymTec.Api\\Models\\ClasesImpartida.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\ClasesImpartida.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\ClasesImpartida.cs",
               "RelativeToolTip": "GymTec.Api\\Models\\ClasesImpartida.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -250,11 +277,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "HorasTrabajada.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\HorasTrabajada.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\HorasTrabajada.cs",
               "RelativeDocumentMoniker": "GymTec.Api\\Models\\HorasTrabajada.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\HorasTrabajada.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\HorasTrabajada.cs",
               "RelativeToolTip": "GymTec.Api\\Models\\HorasTrabajada.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -262,11 +289,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "GymTecContext.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Data\\GymTecContext.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Data\\GymTecContext.cs",
               "RelativeDocumentMoniker": "GymTec.Api\\Data\\GymTecContext.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Data\\GymTecContext.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Data\\GymTecContext.cs",
               "RelativeToolTip": "GymTec.Api\\Data\\GymTecContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -274,11 +301,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "TipoPlanilla.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\TipoPlanilla.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\TipoPlanilla.cs",
               "RelativeDocumentMoniker": "GymTec.Api\\Models\\TipoPlanilla.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\TipoPlanilla.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\TipoPlanilla.cs",
               "RelativeToolTip": "GymTec.Api\\Models\\TipoPlanilla.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -286,11 +313,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\User.cs",
               "RelativeDocumentMoniker": "GymTec.Api\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Escritorio\\GymTec\\GymTec\\GymTec.Api\\GymTec.Api\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Models\\User.cs",
               "RelativeToolTip": "GymTec.Api\\Models\\User.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAA4wDIAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
