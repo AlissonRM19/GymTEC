@@ -89,10 +89,6 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
@@ -103,8 +99,11 @@
               "ViewState": "AgIAAGEAAAAAAAAAAAAmwHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T21:10:41.714Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -114,7 +113,7 @@
               "RelativeDocumentMoniker": "GymTec.Api\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\aliss\\OneDrive\\Documentos\\GitHub\\GymTEC\\GymTec.Api\\GymTec.Api\\Controllers\\UsersController.cs",
               "RelativeToolTip": "GymTec.Api\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAiwLUAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T20:23:44.657Z",
               "EditorCaption": ""
