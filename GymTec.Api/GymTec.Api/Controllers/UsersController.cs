@@ -1,13 +1,15 @@
-﻿using System;
+﻿using GymTec.Api.Data;
+using GymTec.Api.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-using GymTec.Api.Data;
-using GymTec.Api.Models;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace GymTec.Api.Controllers
 {
@@ -133,6 +135,46 @@ namespace GymTec.Api.Controllers
             return NoContent();
         }
 
+        public class AsignarInstructorDto
+        {
+            public Guid ClienteId { get; set; }
+        }
+
+        [HttpGet("clientes-sin-instructor")]
+        // [Authorize(Roles = "Instructor")] ← lo comentamos por ahora
+        public async Task<ActionResult<IEnumerable<object>>> GetClientesSinInstructor()
+        {
+            var clientesSinInstructor = await _context.Users
+                .Where(u => u.Role == UserRole.Cliente && u.InstructorId == null)
+                .Select(u => new
+                {
+                    u.Id,
+                    u.NombreCompleto,
+                    u.Correo
+                })
+                .ToListAsync();
+
+            return Ok(clientesSinInstructor);
+        }
+
+
+        [HttpPut("asignar-instructor")]
+        public async Task<IActionResult> AsignarInstructor([FromBody] AsignarInstructorDto dto)
+        {
+            var instructorIdStr = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (!Guid.TryParse(instructorIdStr, out var instructorId))
+                return Unauthorized();
+
+            var cliente = await _context.Users.FindAsync(dto.ClienteId);
+            if (cliente == null || cliente.Role != UserRole.Cliente)
+                return NotFound("Cliente no encontrado.");
+
+            cliente.InstructorId = instructorId;
+
+            await _context.SaveChangesAsync();
+            return Ok("Instructor asignado.");
+        }
+
         /// <summary>
         /// DELETE /api/Users/{id}
         /// Elimina un usuario.
@@ -167,7 +209,8 @@ namespace GymTec.Api.Controllers
             {
                 token = "token-ficticio-por-ahora",
                 user.NombreCompleto,
-                user.Role
+                user.Role,
+                user.Id
             });
         }
 

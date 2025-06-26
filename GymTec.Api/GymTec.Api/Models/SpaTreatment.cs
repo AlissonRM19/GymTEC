@@ -9,13 +9,10 @@ namespace GymTec.Api.Models
     public class SpaTreatment
     {
         public Guid Id { get; set; }
-        public string Name { get; set; } = null!;
+        public string Name { get; set; } // Ensure this property exists and matches the expected usage
         public bool IsDefault { get; set; }
-
-        public ICollection<SpaReservation> SpaReservations { get; set; } = new List<SpaReservation>();
-
-        // Navegación inversa para asociaciones con sucursal
-        public ICollection<SpaBranchTreatment> SpaBranchTreatments { get; set; } = new List<SpaBranchTreatment>();
+        public ICollection<SpaReservation> SpaReservations { get; set; }
+        public ICollection<SpaBranchTreatment> SpaBranchTreatments { get; set; }
     }
 }
 

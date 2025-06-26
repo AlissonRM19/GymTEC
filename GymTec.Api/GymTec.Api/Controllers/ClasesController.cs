@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using GymTec.Api.Data;
+﻿using GymTec.Api.Data;
 using GymTec.Api.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace GymTec.Api.Controllers
 {
@@ -126,6 +128,19 @@ namespace GymTec.Api.Controllers
             _context.Clases.Update(existing);
             await _context.SaveChangesAsync();
             return NoContent();
+        }
+
+        [HttpGet("cliente/{id}")]
+        public async Task<ActionResult<IEnumerable<ClasesImpartida>>> GetPorCliente(Guid id)
+        {
+            var clases = await _context.ClasesImpartidas
+                .Where(c => c.UserId == id)
+                .ToListAsync();
+
+            if (clases == null || clases.Count == 0)
+                return NotFound("No hay clases para este cliente");
+
+            return Ok(clases);
         }
 
         /// <summary>

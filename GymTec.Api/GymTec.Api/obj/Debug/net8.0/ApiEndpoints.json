@@ -177,6 +177,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "GymTec.Api.Controllers.ClasesController",
+    "Method": "GetPorCliente",
+    "RelativePath": "api/Clases/cliente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GymTec.Api.Models.ClasesImpartida, GymTec.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "GymTec.Api.Controllers.PlanillaController",
     "Method": "GetPlanilla",
     "RelativePath": "api/Planilla",
@@ -323,6 +349,32 @@
     "ReturnTypes": [
       {
         "Type": "GymTec.Api.Models.SpaReservation",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GymTec.Api.Controllers.SpaReservationsController",
+    "Method": "GetByUserId",
+    "RelativePath": "api/SpaReservations/cliente/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -658,6 +710,42 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTec.Api.Controllers.UsersController",
+    "Method": "AsignarInstructor",
+    "RelativePath": "api/Users/asignar-instructor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GymTec.Api.Controllers.UsersController\u002BAsignarInstructorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTec.Api.Controllers.UsersController",
+    "Method": "GetClientesSinInstructor",
+    "RelativePath": "api/Users/clientes-sin-instructor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "GymTec.Api.Controllers.UsersController",

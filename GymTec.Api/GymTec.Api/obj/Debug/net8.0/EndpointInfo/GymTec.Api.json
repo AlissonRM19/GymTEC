@@ -309,6 +309,55 @@
         }
       }
     },
+    "/api/Clases/cliente/{id}": {
+      "get": {
+        "tags": [
+          "Clases"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClasesImpartida"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClasesImpartida"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClasesImpartida"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Planilla": {
       "get": {
         "tags": [
@@ -564,6 +613,49 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/SpaReservation"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/SpaReservations/cliente/{userId}": {
+      "get": {
+        "tags": [
+          "SpaReservations"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
                 }
               }
             }
@@ -1126,6 +1218,69 @@
         }
       }
     },
+    "/api/Users/clientes-sin-instructor": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Users/asignar-instructor": {
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AsignarInstructorDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AsignarInstructorDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AsignarInstructorDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Users/login": {
       "post": {
         "tags": [
@@ -1160,6 +1315,16 @@
   },
   "components": {
     "schemas": {
+      "AsignarInstructorDto": {
+        "type": "object",
+        "properties": {
+          "clienteId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
       "Clase": {
         "type": "object",
         "properties": {
@@ -1582,13 +1747,6 @@
         "additionalProperties": false
       },
       "User": {
-        "required": [
-          "cedula",
-          "correo",
-          "nombreCompleto",
-          "passwordMd5",
-          "role"
-        ],
         "type": "object",
         "properties": {
           "id": {
@@ -1596,43 +1754,40 @@
             "format": "uuid"
           },
           "cedula": {
-            "maxLength": 20,
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "nombreCompleto": {
-            "maxLength": 200,
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "provincia": {
-            "maxLength": 100,
             "type": "string",
             "nullable": true
           },
           "canton": {
-            "maxLength": 100,
             "type": "string",
             "nullable": true
           },
           "distrito": {
-            "maxLength": 100,
             "type": "string",
             "nullable": true
           },
           "correo": {
-            "maxLength": 200,
-            "minLength": 1,
             "type": "string",
-            "format": "email"
+            "nullable": true
           },
           "passwordMd5": {
-            "maxLength": 32,
-            "minLength": 32,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "role": {
             "$ref": "#/components/schemas/UserRole"
+          },
+          "instructorId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
           },
           "sucursalId": {
             "type": "integer",

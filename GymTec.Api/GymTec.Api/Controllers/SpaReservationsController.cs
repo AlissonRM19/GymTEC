@@ -115,6 +115,31 @@ namespace GymTec.Api.Controllers
             return Ok(reserva);
         }
 
+        /// <summary>
+        /// GET /api/SpaReservations/cliente/{userId}
+        /// Obtiene todas las reservas del spa para un cliente.
+        /// </summary>
+        [HttpGet("cliente/{userId}")]
+        [AllowAnonymous] // O usá [Authorize(Roles = "Cliente")] si ya tenés el token funcionando
+        public async Task<ActionResult<IEnumerable<object>>> GetByUserId(Guid userId)
+        {
+            var reservas = await _context.SpaReservations
+                .Include(r => r.SpaTreatment)
+                .Where(r => r.UserId == userId)
+                .Select(r => new
+                {
+                    r.Id,
+                    r.ReservationDate,
+                    r.StartTime,
+                    r.EndTime,
+                    Tratamiento = r.SpaTreatment.Name
+                })
+                .ToListAsync();
+
+            return Ok(reservas);
+        }
+
+
         // Podrías agregar PUT/DELETE de reservas con validaciones similares.
     }
 }

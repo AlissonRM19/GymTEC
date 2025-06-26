@@ -428,10 +428,10 @@ C:\Users\aliss\OneDrive\Documentos\GitHub\GymTEC\GymTec.Api\GymTec.Api\obj\Debug
 C:\Users\aliss\OneDrive\Documentos\GitHub\GymTEC\GymTec.Api\GymTec.Api\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\aliss\OneDrive\Documentos\GitHub\GymTEC\GymTec.Api\GymTec.Api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\aliss\OneDrive\Documentos\GitHub\GymTEC\GymTec.Api\GymTec.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\aliss\OneDrive\Documentos\GitHub\GymTEC\GymTec.Api\GymTec.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\aliss\OneDrive\Documentos\GitHub\GymTEC\GymTec.Api\GymTec.Api\obj\Debug\net8.0\GymTec.Api.csproj.Up2Date
 C:\Users\aliss\OneDrive\Documentos\GitHub\GymTEC\GymTec.Api\GymTec.Api\obj\Debug\net8.0\GymTec.Api.dll
 C:\Users\aliss\OneDrive\Documentos\GitHub\GymTEC\GymTec.Api\GymTec.Api\obj\Debug\net8.0\refint\GymTec.Api.dll
 C:\Users\aliss\OneDrive\Documentos\GitHub\GymTEC\GymTec.Api\GymTec.Api\obj\Debug\net8.0\GymTec.Api.pdb
 C:\Users\aliss\OneDrive\Documentos\GitHub\GymTEC\GymTec.Api\GymTec.Api\obj\Debug\net8.0\GymTec.Api.genruntimeconfig.cache
 C:\Users\aliss\OneDrive\Documentos\GitHub\GymTEC\GymTec.Api\GymTec.Api\obj\Debug\net8.0\ref\GymTec.Api.dll
+C:\Users\aliss\OneDrive\Documentos\GitHub\GymTEC\GymTec.Api\GymTec.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
